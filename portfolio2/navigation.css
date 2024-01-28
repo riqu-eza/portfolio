@@ -1,12 +1,20 @@
 @import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.navi{
+    text-align: center;
+
+}
 ul{
     position: relative;
     list-style: none;
     display: flex;
     padding: 0;
-    margin: 0;
+    margin: 10px;
+    margin-left: 30%;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
+
 }
 a{
     position: relative;
@@ -17,7 +25,7 @@ a{
     display: inline-block;
     padding: 10px 20px;
     font-weight: 300;
-    box-shadow: 0 15px 35px #00000033;
+    box-shadow: 0 15px 35px #5a5858;
     z-index: 2;
     backdrop-filter: blur(15px);
     overflow: hidden;
@@ -48,7 +56,7 @@ li:nth-last-child(2) a{
     transition: 0.5s;
 }
 .indicator::before{
-    --color: #5da6ff;
+    --color: #9934ad;
     content: '';
     position: absolute;
     width: 50%;
@@ -57,7 +65,7 @@ li:nth-last-child(2) a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 50%;
+    border-radius: 70%;
     transition: 0.5s;
     box-shadow: 
     0 0 15px var(--color),
@@ -68,11 +76,11 @@ li:nth-last-child(2) a{
 }
 li:nth-child(2):hover~
 .indicator::before{
-    --color: #ff0;
+    --color: rgb(228, 95, 34);
 }
 li:nth-child(3):hover~
 .indicator::before{
-    --color: #0f0;
+    --color: rgb(191, 219, 28);
 }
 li:nth-child(4):hover~
 .indicator::before{

@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+   
+   
+}
+.view{
+    
+    display: inline-block;
+    border-radius: 10%;
+    margin-top: 15px;
+    box-shadow: 0 15px 35px #00000033;
+}
+.view h4{
+    font-size: 2em;
+    padding: 0;
+
+}
