@@ -6,7 +6,7 @@
    
    
 }
-.view{
+.vi ew{
     
     display: inline-block;
     border-radius: 10%;
@@ -16,5 +16,14 @@
 .view h4{
     font-size: 2em;
     padding: 0;
-
+    border: 2px solid black;
+    border-radius: 10px ;
+}
+.view p{
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 15px;
+    font-size: 3em;
+    text-align: center;
+    color: #000;
 }

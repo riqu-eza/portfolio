@@ -1,0 +1,121 @@
+.project-con,
+.Technical-con,
+.education-con,
+.Experiences-con,
+.Articles-con {
+    width: 10cm;
+    height: 13cm;
+    background-color: rgb(26, 143, 118);
+    margin: 20px;
+    text-align: center;
+    max-height: 10cm;
+    overflow-y: auto;
+
+    border-radius: 20px;
+
+}
+
+.project-con h3,
+.Technical-con h3,
+.education-con h3,
+
+.Experiences-con h3,
+.Articles-con h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-stretch: expanded;
+    letter-spacing: 0.2cm;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.projects {
+    border: 2px solid #3333;
+    width: 8cm;
+    height: 5cm;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    float: none;
+    margin-left: 0.8cm;
+}
+
+.project {
+    display: inline-block;
+
+}
+
+.project-content {
+    display: flex;
+    align-self: center;
+}
+
+.project-content img {
+    width: 50px;
+
+    height: 40px;
+
+    margin-right: 20px;
+}
+
+.academia {
+    text-align: left;
+    margin: 0 20px;
+}
+.blogs{
+   display: block;
+   text-align: left;
+   margin-left: 30px;
+}
+.blogs ul {
+    list-style: none;
+}
+
+.blogs ul li {
+    display: block;
+}
+.skill-box {
+    background-color: #646;
+    color: #000;
+    padding: 10px;
+    cursor: pointer;
+    width: fit-content;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 3cm ;
+    border-radius: 25px;
+
+  }
+
+  .skills {
+    display: none;
+    text-align: left;
+  }
+
+  .skills.active {
+    display: block;
+    text-align: center;
+  
+  }

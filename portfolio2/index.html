@@ -6,10 +6,14 @@
 	<link rel="stylesheet" href="text.css">
 	<link rel="stylesheet" href="navigation.css">
 	<link rel="stylesheet" href="workon.css">
+	<link rel="stylesheet" href="text.css">
+	<link rel="stylesheet" href="about.css">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
-	<div class="container">
+	<div class="containerprof" id="Portfolio">
 
 		<div class="main">
 			<h1>V.K.Muthunga</h1>
@@ -35,11 +39,11 @@
 	</div>
 	<div class="navigation">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Portfolio</a></li>
-			<li><a href="#">Team</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a class="navia" href="#">Home</a></li>
+			<li><a class="navia" href="#about">About</a></li>
+			<li><a class="navia" href="#portfolio">Portfolio</a></li>
+			
+			<li><a class="navia" href="#contact">Contact</a></li>
 			<div class="indicator"></div>
 		</ul>
 
@@ -49,13 +53,314 @@
 	<div class="card">
 		<div class="view">
 			<h4>projects done</h4>
-			<p>400</p>
+			<p id="work-point">0</p>
 		</div>
 		<div class="view">
 			<h4>work on schedule</h4>
-			<p>4000</p>
+			<p id="work-on">=0</p>
+		</div>
+		<script src="workon.js"></script>
+	</div>
+	<hr>
+	<hr>
+	<div class="about" id="about">
+		<div class="wrapper">
+			<div class="row">
+				<div class="project-con">
+					<h3>Projects Showcase</h3>
+					<div class="projects">
+						<div class="project">
+							<div class="project-content">
+								<img src="../img/DANCAH-removebg-preview.png" alt="Project 1">
+								<p>An IoT project involves integrating sensors, actuators, and
+									devices with internet
+									<a href="#" class="read-more">Read More</a>
+								</p>
+
+
+							</div>
+						</div>
+
+					</div>
+					<div class="projects">
+						<div class="project">
+							<div class="project-content">
+								<img src="../img/DANCAH-removebg-preview.png" alt="Project 1">
+								<p>An IoT project involves integrating sensors, actuators, and
+									devices with internet
+									<a href="#" class="read-more">Read More</a>
+								</p>
+
+
+							</div>
+						</div>
+
+					</div>
+					<div class="projects">
+						<div class="project">
+							<div class="project-content">
+								<img src="../img/DANCAH-removebg-preview.png" alt="Project 1">
+								<p>An IoT project involves integrating sensors, actuators, and
+									devices with internet
+									<a href="#" class="read-more">Read More</a>
+								</p>
+
+
+							</div>
+						</div>
+
+					</div>
+					<div class="projects">
+						<div class="project">
+							<div class="project-content">
+								<img src="../img/DANCAH-removebg-preview.png">
+								<p>
+									project involves integrating sensors, actuators, and
+									devices with internet
+									<a href="#" class="read-more">Read More</a>
+								</p>
+
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="Technical-con">
+					<script src="about.js"></script>
+					<h3>technical skills</h3>
+
+					<div>
+
+
+					</div>
+
+					<div class="skill-box" onclick="toggleSkills(skills)">Programming</div>
+					<div class="skills" id="skills">
+
+						<li>php</li>
+						<li>python</li>
+						<li>c++</li>
+
+
+					</div>
+
+					<div class="skill-box" onclick="toggleSkills(skills2)">Web development</div>
+					<div class="skills" id="skills2">
+
+						<li>Html</li>
+						<li>css</li>
+						<li>tailwind</li>
+						<li>javacript</li>
+						<li>react js</li>
+
+
+
+					</div>
+
+					<div class="skill-box" onclick="toggleSkills(skills3)">DataManagement</div>
+					<div class="skills" id="skills3">
+						<li>Data collection</li>
+						<li>Data processing</li>
+						<li>Data analysis</li>
+						<li>Data processing</li>
+						<li>Excel</li>
+						<li>Xampp</li>
+						<li>sql</li>
+
+					</div>
+
+					<div class="skill-box" onclick="toggleSkills(skills4)">Trading</div>
+					<div class="skills" id="skills4">
+
+						<li>Cyrpto trading</li>
+						<li>forex trading</li>
+						<li>binary trading</li>
+
+
+
+					</div>
+
+					<div class="skill-box" onclick="toggleSkills(skills5)">Graphics</div>
+					<div class="skills" id="skills5">
+
+						<li>adobe</li>
+						<li>photoshop</li>
+						<li>Figma</li>
+						<li>blender</li>
+						<li>logo designing/animation</li>
+						<li>Post designing</li>
+
+
+					</div>
+				</div>
+
+			</div>
+			<div class="education-con">
+				<h3>Education</h3>
+				<hr>
+				<div class="academia">
+
+					<p>
+						<span class="material-symbols-outlined">
+							description
+						</span>
+						Diploma In Information Technology -Zetech University <br>
+						<span class="material-symbols-outlined">
+							calendar_month
+						</span><span>2022</span>
+						<a href="#">see more..</a>
+					</p>
+				</div>
+				<hr>
+				<div class="academia">
+
+					<p>
+						<span class="material-symbols-outlined">
+							description
+						</span>
+						Diploma In Information Technology -Zetech University <br>
+						<span class="material-symbols-outlined">
+							calendar_month
+						</span><span>2022</span>
+						<a href="#">see more..</a>
+					</p>
+				</div>
+				<hr>
+				<div class="academia">
+
+					<p>
+						<span class="material-symbols-outlined">
+							description
+						</span>
+						Diploma In Information Technology -Zetech University <br>
+						<span class="material-symbols-outlined">
+							calendar_month
+						</span><span>2022</span>
+						<a href="#">see more..</a>
+					</p>
+				</div>
+				<hr>
+				<div class="academia">
+
+					<p>
+						<span class="material-symbols-outlined">
+							description
+						</span>
+						Diploma In Information Technology -Zetech University <br>
+						<span class="material-symbols-outlined">
+							calendar_month
+						</span><span>2022</span>
+						<a href="#">see more..</a>
+					</p>
+				</div>
+				<hr>
+				<div class="academia">
+
+					<p>
+						<span class="material-symbols-outlined">
+							description
+						</span>
+						Diploma In Information Technology -Zetech University <br>
+						<span class="material-symbols-outlined">
+							calendar_month
+						</span><span>2022</span>
+						<a href="#">see more..</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="Experiences-con">
+					<h3>Experiences</h3>
+					<div class="projects">
+						<div class="project">
+							<div class="project-content">
+								<img src="../img/DANCAH-removebg-preview.png" alt="Project 1">
+								<p>An IoT project involves integrating sensors, actuators, and
+									devices with internet
+									<a href="#" class="read-more">Read More</a>
+								</p>
+
+
+							</div>
+						</div>
+
+					</div>
+					<div class="projects">
+						<div class="project">
+							<div class="project-content">
+								<img src="../img/DANCAH-removebg-preview.png" alt="Project 1">
+								<p>An IoT project involves integrating sensors, actuators, and
+									devices with internet
+									<a href="#" class="read-more">Read More</a>
+								</p>
+
+
+							</div>
+						</div>
+
+					</div>
+					<div class="projects">
+						<div class="project">
+							<div class="project-content">
+								<img src="../img/DANCAH-removebg-preview.png" alt="Project 1">
+								<p>An IoT project involves integrating sensors, actuators, and
+									devices with internet
+									<a href="#" class="read-more">Read More</a>
+								</p>
+
+
+							</div>
+						</div>
+
+					</div>
+					<div class="projects">
+						<div class="project">
+							<div class="project-content">
+								<img src="../img/DANCAH-removebg-preview.png" alt="Project 1">
+								<p>An IoT project involves integrating sensors, actuators, and
+									devices with internet
+									<a href="#" class="read-more">Read More</a>
+								</p>
+
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="Articles-con">
+					<h3>Articles </h3>
+					<div class="blogs">
+
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+						<li><a class="bloga" href="">Css Working</a></li>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
+
 </body>
 
 </html>

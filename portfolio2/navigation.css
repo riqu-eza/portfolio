@@ -16,7 +16,7 @@ ul{
     align-items: center;
 
 }
-a{
+.navia{
     position: relative;
     background: #ffffff0d;
     color: #fff;
@@ -30,7 +30,7 @@ a{
     backdrop-filter: blur(15px);
     overflow: hidden;
 }
-a:before{
+ .navia a:before{
     position: absolute;
     content: '';
     background: #ffffff1a;

@@ -14,7 +14,7 @@ body {
     pointer-events: none; /* Allows clicks to pass through the overlay */
 }
 
-.container {
+.containerprof {
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
@@ -45,4 +45,10 @@ body {
 }
 .profile{
 	display: block;
+}
+hr{
+	border: none;
+	height: 2px;
+	background-color: #000;
+	width: 70%;
 }
