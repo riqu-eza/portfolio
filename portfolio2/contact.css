@@ -1,0 +1,46 @@
+.contact-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+    
+
+
+}
+.contact-contain{
+    background: linear-gradient(to bottom, #009688, #018d97, #0086af, #1773be, #003e80); /* Gradient background */
+     height: fit-content;
+}
+.contact-info {
+    text-align: center;
+    display: block;
+    letter-spacing: 1px;
+    font-family: 'Lora', serif;
+}
+
+.contact-link li a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.contact-link {
+    display: block;
+
+}
+
+.butt-cont-mes {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+
+}
+.butt-cont-mes:hover {
+    background-color: #0056b3;
+}
+.contact-end{
+    text-align: center;
+}
+
