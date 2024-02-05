@@ -3,6 +3,7 @@
 
 .navi{
     text-align: center;
+  
 
 }
 ul{
@@ -54,6 +55,7 @@ li:nth-last-child(2) a{
     height: 45px;
     top: 0;
     transition: 0.5s;
+    
 }
 .indicator::before{
     --color: #9934ad;

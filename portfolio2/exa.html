@@ -1,46 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Toggle Skills</title>
-<style>
-  .skill-box {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-  }
-
-  .skills {
-    display: none;
-  }
-
-  .skills.active {
-    display: block;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="exa.css">
+  <title>Document</title>
 </head>
 <body>
-
-<div class="skill-box" onclick="toggleSkills()">Major Technical Skills</div>
-<div class="skills" id="skills">
-  <ul>
-    <li>Programming Languages</li>
-    <li>Web Development</li>
-    <li>Mobile App Development</li>
-    <li>Database Management</li>
-    <li>DevOps</li>
-    <!-- Add more skills as needed -->
-  </ul>
-</div>
-
-<script>
-function toggleSkills() {
-  var skills = document.getElementById("skills");
-  skills.classList.toggle("active");
-}
-</script>
-
+  <div class="container">
+    <div class="overlay"></div>
+    <p>This is the content of the bottom container.</p>
+  </div>
+  <div class="container">
+    <div class="overlay"></div>
+    <p>This is the content of the top container.</p>
+  </div>
+  
 </body>
 </html>

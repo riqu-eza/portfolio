@@ -1,22 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text");
 
-.container{
-    box-shadow: 0 0 30px 3px #3d4846;
+.container-barcode{
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
-    border-radius: 15px;
+    padding-top: 2em;
 }
-h1{
+.container-barcode h1{
     position: relative;
     display: contents;
     color: #626B5B;
-    font-size: 10rem;
+    font-size: 7rem;
     font-weight: 100;
     font-family: 'Libre Barcode 128 Text';
 }
-span{
+.container-barcode span{
     user-select: none;
     padding-bottom: 10px;
     animation: anim 2.8s ease-out infinite;
@@ -25,13 +24,13 @@ span{
 @keyframes anim {
     0%,
     90%{
-        color: #626B5B;
+        color: rgb(192, 165, 192);
         text-shadow: none;
         border-bottom: 1px solid transparent;
     }
     100%{
-        color: aliceblue;
-        border-bottom: 1px solid darkred;
+        color: rgb(142, 155, 167);
+        border-bottom: 1px solid rgb(211, 18, 18);
         text-shadow: 1px 1px 35px aqua;
     }
 }
